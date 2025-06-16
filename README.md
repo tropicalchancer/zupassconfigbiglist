@@ -1,33 +1,60 @@
-List of zupass configs: 
+# Zupass Configuration List
 
-Zuzalu
-ZuConnect
-Vitalia
-ZuVillage Georgia
-Edge Esmeralda Local
-Edge Esmeralda
-Zanzalu 2024
-ETHBerlin04
-ETHPrague 2024
-BM (Builder Monastery)
-MegaZu24
-ShanhaiWooCM
-Edge City Denver
-zu-architects (ignore this one - I made it while testing something)
+This repository contains a comprehensive list of Zupass configurations for various events and communities.
 
-I also have the configs for the following but are not yet in this file: 
-Edge City Lanna
-Zanzalu 2024
-Invisible Garden
-Zelar City
-web3village Chiang Mai
-web3village Bangkok
+## Currently Configured Events
 
-The reason they are not in yet is because they have no been properly launched - that is, they are retroactive zupass proofs that still need to be launched to members to "claim". There are another 5-10 that can be added to this list outside of those as well. 
+- 🏰 **Zuzalu**
+- 🔗 **ZuConnect**
+- 🌱 **Vitalia**
+- 🏛️ **ZuArchitects**
+- 🏔️ **ZuVillage Georgia**
+- 🌅 **Edge Esmeralda**
+- 🏝️ **Zanzalu 2024**
+- 🏙️ **ETHBerlin04**
+- 🏰 **ETHPrague 2024**
+- 🏯 **BM (Builder Monastery)**
+- 🌟 **MegaZu24**
+- 🏮 **Shanhai Woo Chiang Mai**
+- 🏔️ **Edge City Denver**
 
+## Pending Configurations
 
-Wishlist of configs I'd like to add that are not already here: 
-Devconnect Istanbul
-Devcon Bangkok
-ZuCastle
-ZuThailand
+The following events have configurations but are not yet launched (retroactive Zupass proofs pending member claims):
+- Edge City Lanna
+- Zanzalu 2024
+- Invisible Garden
+- Zelar City
+- Web3Village Chiang Mai
+- Web3Village Bangkok
+
+## Wishlist Events
+
+- Devconnect Istanbul
+- Devcon Bangkok
+- ZuCastle
+- ZuThailand
+
+## Technical Details
+
+Each event configuration includes:
+- Event ID
+- Product ID
+- Event Name
+- Product Name
+- PCD Type
+- Public Key pair for verification
+
+## Contributing
+
+To add new event configurations:
+1. Ensure you have the correct event and product IDs
+2. Add the configuration to `zupassConfig.ts`
+3. Update this README with the new event details
+4. Submit a pull request
+
+## Notes
+
+- Some events may have multiple ticket types (e.g., Resident, Organizer, Speaker)
+- All configurations use the standard "eddsa-ticket-pcd" proof type
+- Public keys are provided as pairs for verification purposes
