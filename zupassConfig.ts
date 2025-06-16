@@ -16,6 +16,9 @@ export const whitelistedTickets: Record<
     publicKey: [string, string] // Public key pair for verifying the proof
   }>
 > = {
+  // ==============================================
+  // 🏰 ZUZALU
+  // ==============================================
   Zuzalu: [
     {
       pcdType: "eddsa-ticket-pcd",
@@ -51,6 +54,10 @@ export const whitelistedTickets: Record<
       productName: "Visitor",
     },
   ],
+
+  // ==============================================
+  // 🔗 ZUCONNECT
+  // ==============================================
   ZuConnect: [
     {
       pcdType: "eddsa-ticket-pcd",
@@ -97,6 +104,10 @@ export const whitelistedTickets: Record<
       productName: "Organizer",
     },
   ],
+
+  // ==============================================
+  // 🌱 VITALIA
+  // ==============================================
   Vitalia: [
     {
       pcdType: "eddsa-ticket-pcd",
@@ -110,8 +121,10 @@ export const whitelistedTickets: Record<
       productName: "Resident",
     },
   ],
-  // New ZuArchitects group configuration
-  // This group has two types of tickets: architect and speaker
+
+  // ==============================================
+  // 🏛️ ZUARCHITECTS
+  // ==============================================
   ZuArchitects: [
     {
       // Configuration for the "architect" ticket
@@ -140,6 +153,10 @@ export const whitelistedTickets: Record<
       productName: "Speaker"
     }
   ],
+
+  // ==============================================
+  // ��️ ZUVILLAGE GEORGIA
+  // ==============================================
   ZuVillageGeorgia: [
     {
       pcdType: "eddsa-ticket-pcd",
@@ -153,6 +170,10 @@ export const whitelistedTickets: Record<
       productName: "Contributor"
     }
   ],
+
+   // ==============================================
+  // 🌅 EDGE ESMERALDA
+  // ==============================================
   EdgeEsmeraldaLocal: [
     {
       pcdType: "eddsa-ticket-pcd",
@@ -188,6 +209,8 @@ export const whitelistedTickets: Record<
       productName: "Patron"
     }
   ],
+
+
   EdgeEsmeralda: [
     {
       pcdType: "eddsa-ticket-pcd",
@@ -223,6 +246,10 @@ export const whitelistedTickets: Record<
       productName: "Weekend Day Ticket"
     }
   ],
+
+  // ==============================================
+  // 🏝️ ZANZALU 2024
+  // ==============================================
   Zanzalu: [
     {
       pcdType: "eddsa-ticket-pcd",
@@ -236,6 +263,10 @@ export const whitelistedTickets: Record<
       productName: "Resident"
     }
   ],
+
+  // ==============================================
+  // 🏙️ ETHBERLIN04
+  // ==============================================
   ETHBerlin04: [
     {
       pcdType: "eddsa-ticket-pcd",
@@ -359,6 +390,10 @@ export const whitelistedTickets: Record<
       productName: "Experiences"
     }
   ],
+
+  // ==============================================
+  // 🏰 ETHPRAGUE 2024
+  // ==============================================
   ETHPrague: [
     {
       pcdType: "eddsa-ticket-pcd",
@@ -559,6 +594,10 @@ export const whitelistedTickets: Record<
       productName: "Food Vendor C"
     }
   ],
+
+  // ==============================================
+  // 🏯 BM (builder monastery))
+  // ==============================================
   BM: [
     {
       pcdType: "eddsa-ticket-pcd",
@@ -616,6 +655,10 @@ export const whitelistedTickets: Record<
       productName: "Week 3: Privacy Forum"
     }
   ],
+
+  // ==============================================
+  // 🌟 MEGAZU24
+  // ==============================================
   MegaZu24: [
     {
       pcdType: "eddsa-ticket-pcd",
@@ -640,6 +683,10 @@ export const whitelistedTickets: Record<
       productName: "Core-Organizer"
     }
   ],
+
+  // ==============================================
+  // 🏮 SHANHAI WOO Chiang Mai
+  // ==============================================
   ShanhaiWooCM: [
     {
       pcdType: "eddsa-ticket-pcd",
@@ -675,6 +722,10 @@ export const whitelistedTickets: Record<
       productName: "Resident"
     }
   ],
+
+  // ==============================================
+  // 🏔️ EDGE CITY DENVER
+  // ==============================================
   EdgeCityDenver: [
     {
       pcdType: "eddsa-ticket-pcd",
