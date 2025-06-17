@@ -17,6 +17,7 @@ This repository contains a comprehensive list of Zupass configurations for vario
 - 🌟 **MegaZu24**
 - 🏮 **Shanhai Woo Chiang Mai**
 - 🏔️ **Edge City Denver**
+- 🏝️ **ZuThailand**
 
 ## Pending Configurations
 
@@ -33,7 +34,6 @@ The following events have configurations but are not yet launched (retroactive Z
 - Devconnect Istanbul
 - Devcon Bangkok
 - ZuCastle
-- ZuThailand
 
 ## Technical Details
 

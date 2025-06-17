@@ -1,7 +1,7 @@
 // Define ticket type names
 // This type defines all the different groups that can verify with Zupass
 // We're adding "ZuArchitects" as a new group
-export type TicketTypeName = "Zuzalu" | "ZuConnect" | "Vitalia" | "ZuArchitects" | "ZuVillageGeorgia" | "EdgeEsmeralda" | "EdgeEsmeraldaLocal" | "Zanzalu" | "ETHBerlin04" | "ETHPrague" | "BM" | "MegaZu24" | "ShanhaiWooCM" | "EdgeCityDenver"
+export type TicketTypeName = "Zuzalu" | "ZuConnect" | "Vitalia" | "ZuArchitects" | "ZuVillageGeorgia" | "EdgeEsmeralda" | "EdgeEsmeraldaLocal" | "Zanzalu" | "ETHBerlin04" | "ETHPrague" | "BM" | "MegaZu24" | "ShanhaiWooCM" | "EdgeCityDenver" | "ZuThailand"
 
 // Define the whitelisted tickets configuration
 // This object maps each group to an array of valid tickets for that group
@@ -825,6 +825,188 @@ export const whitelistedTickets: Record<
       eventName: "Edge City Denver",
       productId: "0eede921-5bdc-45e0-bfab-5cb71db201c0",
       productName: "Sunday Day Pass"
+    }
+  ],
+
+  // ==============================================
+  // 🏝️ ZUTHAILAND
+  // ==============================================
+  ZuThailand: [
+    {
+      pcdType: "eddsa-ticket-pcd",
+      publicKey: [
+        "1ebfb986fbac5113f8e2c72286fe9362f8e7d211dbc68227a468d7b919e75003",
+        "10ec38f11baacad5535525bbe8e343074a483c051aa1616266f3b1df3fb7d204"
+      ],
+      eventId: "aa277c5f-6056-4155-880a-fb9d9325a2dc",
+      eventName: "ZuThailand",
+      productId: "1c7cf4be-0a5e-4dda-98ce-85643579dffd",
+      productName: "Resident Pass (4 weeks, private room)"
+    },
+    {
+      pcdType: "eddsa-ticket-pcd",
+      publicKey: [
+        "1ebfb986fbac5113f8e2c72286fe9362f8e7d211dbc68227a468d7b919e75003",
+        "10ec38f11baacad5535525bbe8e343074a483c051aa1616266f3b1df3fb7d204"
+      ],
+      eventId: "aa277c5f-6056-4155-880a-fb9d9325a2dc",
+      eventName: "ZuThailand",
+      productId: "8e7f5dcf-acde-41f9-a0d7-90da8b42aae4",
+      productName: "Resident Pass (3 weeks, private room)"
+    },
+    {
+      pcdType: "eddsa-ticket-pcd",
+      publicKey: [
+        "1ebfb986fbac5113f8e2c72286fe9362f8e7d211dbc68227a468d7b919e75003",
+        "10ec38f11baacad5535525bbe8e343074a483c051aa1616266f3b1df3fb7d204"
+      ],
+      eventId: "aa277c5f-6056-4155-880a-fb9d9325a2dc",
+      eventName: "ZuThailand",
+      productId: "02908efd-4f06-4653-a256-2bd7eef3ce5f",
+      productName: "Resident Pass (2 weeks, private room)"
+    },
+    {
+      pcdType: "eddsa-ticket-pcd",
+      publicKey: [
+        "1ebfb986fbac5113f8e2c72286fe9362f8e7d211dbc68227a468d7b919e75003",
+        "10ec38f11baacad5535525bbe8e343074a483c051aa1616266f3b1df3fb7d204"
+      ],
+      eventId: "aa277c5f-6056-4155-880a-fb9d9325a2dc",
+      eventName: "ZuThailand",
+      productId: "d9248daf-2a63-419f-b93e-1699ae7bdb44",
+      productName: "Resident Pass (4 weeks, shared room)"
+    },
+    {
+      pcdType: "eddsa-ticket-pcd",
+      publicKey: [
+        "1ebfb986fbac5113f8e2c72286fe9362f8e7d211dbc68227a468d7b919e75003",
+        "10ec38f11baacad5535525bbe8e343074a483c051aa1616266f3b1df3fb7d204"
+      ],
+      eventId: "aa277c5f-6056-4155-880a-fb9d9325a2dc",
+      eventName: "ZuThailand",
+      productId: "09a121c0-8896-427e-a18a-4d42e17ebbc1",
+      productName: "Resident Pass (3 weeks, shared room)"
+    },
+    {
+      pcdType: "eddsa-ticket-pcd",
+      publicKey: [
+        "1ebfb986fbac5113f8e2c72286fe9362f8e7d211dbc68227a468d7b919e75003",
+        "10ec38f11baacad5535525bbe8e343074a483c051aa1616266f3b1df3fb7d204"
+      ],
+      eventId: "aa277c5f-6056-4155-880a-fb9d9325a2dc",
+      eventName: "ZuThailand",
+      productId: "249c835e-621c-41e0-b209-c0697650070c",
+      productName: "Resident Pass (2 weeks, shared room)"
+    },
+    {
+      pcdType: "eddsa-ticket-pcd",
+      publicKey: [
+        "1ebfb986fbac5113f8e2c72286fe9362f8e7d211dbc68227a468d7b919e75003",
+        "10ec38f11baacad5535525bbe8e343074a483c051aa1616266f3b1df3fb7d204"
+      ],
+      eventId: "aa277c5f-6056-4155-880a-fb9d9325a2dc",
+      eventName: "ZuThailand",
+      productId: "b308eec2-e6f3-4d75-aea5-63cfc567d9e7",
+      productName: "Visitor Pass Week 1"
+    },
+    {
+      pcdType: "eddsa-ticket-pcd",
+      publicKey: [
+        "1ebfb986fbac5113f8e2c72286fe9362f8e7d211dbc68227a468d7b919e75003",
+        "10ec38f11baacad5535525bbe8e343074a483c051aa1616266f3b1df3fb7d204"
+      ],
+      eventId: "aa277c5f-6056-4155-880a-fb9d9325a2dc",
+      eventName: "ZuThailand",
+      productId: "f48e10ad-884a-489c-8c2e-87679e3d0d22",
+      productName: "Visitor Pass Week 2"
+    },
+    {
+      pcdType: "eddsa-ticket-pcd",
+      publicKey: [
+        "1ebfb986fbac5113f8e2c72286fe9362f8e7d211dbc68227a468d7b919e75003",
+        "10ec38f11baacad5535525bbe8e343074a483c051aa1616266f3b1df3fb7d204"
+      ],
+      eventId: "aa277c5f-6056-4155-880a-fb9d9325a2dc",
+      eventName: "ZuThailand",
+      productId: "7b56b4c2-98cd-4538-bb63-121ceb10fe01",
+      productName: "Visitor Pass Week 3"
+    },
+    {
+      pcdType: "eddsa-ticket-pcd",
+      publicKey: [
+        "1ebfb986fbac5113f8e2c72286fe9362f8e7d211dbc68227a468d7b919e75003",
+        "10ec38f11baacad5535525bbe8e343074a483c051aa1616266f3b1df3fb7d204"
+      ],
+      eventId: "aa277c5f-6056-4155-880a-fb9d9325a2dc",
+      eventName: "ZuThailand",
+      productId: "90392902-ae41-4e6a-bf2f-dcb92ae3bc48",
+      productName: "Visitor Pass Week 4"
+    },
+    {
+      pcdType: "eddsa-ticket-pcd",
+      publicKey: [
+        "1ebfb986fbac5113f8e2c72286fe9362f8e7d211dbc68227a468d7b919e75003",
+        "10ec38f11baacad5535525bbe8e343074a483c051aa1616266f3b1df3fb7d204"
+      ],
+      eventId: "aa277c5f-6056-4155-880a-fb9d9325a2dc",
+      eventName: "ZuThailand",
+      productId: "90392902-ae41-4e6a-bf2f-dcb92ae3bc49",
+      productName: "Resident Pass (1 week, private room)"
+    },
+    {
+      pcdType: "eddsa-ticket-pcd",
+      publicKey: [
+        "1ebfb986fbac5113f8e2c72286fe9362f8e7d211dbc68227a468d7b919e75003",
+        "10ec38f11baacad5535525bbe8e343074a483c051aa1616266f3b1df3fb7d204"
+      ],
+      eventId: "aa277c5f-6056-4155-880a-fb9d9325a2dc",
+      eventName: "ZuThailand",
+      productId: "6088261d-c860-42f4-b8cc-57d30d110725",
+      productName: "Resident Pass (1 week, shared room)"
+    },
+    {
+      pcdType: "eddsa-ticket-pcd",
+      publicKey: [
+        "1ebfb986fbac5113f8e2c72286fe9362f8e7d211dbc68227a468d7b919e75003",
+        "10ec38f11baacad5535525bbe8e343074a483c051aa1616266f3b1df3fb7d204"
+      ],
+      eventId: "aa277c5f-6056-4155-880a-fb9d9325a2dc",
+      eventName: "ZuThailand",
+      productId: "351b55f2-5b0c-4336-a29b-6bc378be8750",
+      productName: "Spouse Pass - 3 Weeks"
+    },
+    {
+      pcdType: "eddsa-ticket-pcd",
+      publicKey: [
+        "1ebfb986fbac5113f8e2c72286fe9362f8e7d211dbc68227a468d7b919e75003",
+        "10ec38f11baacad5535525bbe8e343074a483c051aa1616266f3b1df3fb7d204"
+      ],
+      eventId: "aa277c5f-6056-4155-880a-fb9d9325a2dc",
+      eventName: "ZuThailand",
+      productId: "d2164586-72c7-417b-9284-a7aab907d58a",
+      productName: "Spouse Pass week 1"
+    },
+    {
+      pcdType: "eddsa-ticket-pcd",
+      publicKey: [
+        "1ebfb986fbac5113f8e2c72286fe9362f8e7d211dbc68227a468d7b919e75003",
+        "10ec38f11baacad5535525bbe8e343074a483c051aa1616266f3b1df3fb7d204"
+      ],
+      eventId: "aa277c5f-6056-4155-880a-fb9d9325a2dc",
+      eventName: "ZuThailand",
+      productId: "7d206e39-f40d-418e-8acf-b240c55b0602",
+      productName: "Spouse Pass - 4 Weeks"
+    },
+    {
+      pcdType: "eddsa-ticket-pcd",
+      publicKey: [
+        "1ebfb986fbac5113f8e2c72286fe9362f8e7d211dbc68227a468d7b919e75003",
+        "10ec38f11baacad5535525bbe8e343074a483c051aa1616266f3b1df3fb7d204"
+      ],
+      eventId: "aa277c5f-6056-4155-880a-fb9d9325a2dc",
+      eventName: "ZuThailand",
+      productId: "35dade2d-27b5-4fa2-9ccf-14a927b5f9e5",
+      productName: "Spouse Pass - 2 Weeks"
     }
   ]
 }
